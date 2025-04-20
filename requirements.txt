@@ -1,0 +1,9 @@
+streamlit
+typing_extensions
+langgraph
+langchain_groq
+tavily-python
+groq
+langchain_core
+python-dotenv
+pypdf
