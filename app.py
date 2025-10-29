@@ -109,7 +109,10 @@ elif os.path.exists("./input.txt"):
             requirements_docs_content = f.read()
     except Exception as e:
         st.error(f"Error reading default file: {e}")
-                         
+
+st.markdown("---")
+st.write("\n")
+st.markdown("<div style='text-align: center; color: gray; font-size: 0.95em; margin-bottom:6px;'>Developed by <b>Mayur Sapre</b></div>", unsafe_allow_html=True)
 user_request = st.chat_input("Enter your request (e.g., 'Generate Gherkin test cases for the login feature'):")
 
 if user_request:
